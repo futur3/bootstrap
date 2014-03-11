@@ -7,7 +7,7 @@
  * ======================================================================== */
 
 
-+function ($) {
+module.exports = function ($) {
   'use strict';
 
   // CAROUSEL CLASS DEFINITION
@@ -202,4 +202,4 @@
     })
   })
 
-}(jQuery);
+};

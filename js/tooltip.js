@@ -8,7 +8,7 @@
  * ======================================================================== */
 
 
-+function ($) {
+module.exports = function ($) {
   'use strict';
 
   // TOOLTIP PUBLIC CLASS DEFINITION
@@ -396,4 +396,4 @@
     return this
   }
 
-}(jQuery);
+};

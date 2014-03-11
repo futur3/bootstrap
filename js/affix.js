@@ -7,7 +7,7 @@
  * ======================================================================== */
 
 
-+function ($) {
+module.exports = function ($) {
   'use strict';
 
   // AFFIX CLASS DEFINITION
@@ -134,4 +134,4 @@
     })
   })
 
-}(jQuery);
+};

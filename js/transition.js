@@ -7,7 +7,7 @@
  * ======================================================================== */
 
 
-+function ($) {
+module.exports = function ($) {
   'use strict';
 
   // CSS TRANSITION SUPPORT (Shoutout: http://www.modernizr.com/)
@@ -45,4 +45,4 @@
     $.support.transition = transitionEnd()
   })
 
-}(jQuery);
+};
